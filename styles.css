@@ -113,30 +113,56 @@
     font-weight: bold;
 }
 
-.epigraph1{
+.epigraph1,
+.epigraph2,
+.lorem_ipsum_black,
+.lorem_ipsum_dark_grey,
+.lorem_ipsum_grey,
+.lorem_ipsum_antracite,
+.lorem_ipsum_light_grey,
+.lorem_ipsum_white{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.epigraph1{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     text-align: right;
     font-size: smaller;
     font-style: italic;
 }
 
 .epigraph2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     text-align: right;
     font-size: x-small;
 }
 
 .lorem_ipsum_black{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     color: black;
 }
 
-.lorem_ipsum_grey{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: grey;
+.lorem_ipsum_dark_grey{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    color: rgb(33, 33, 33);
 }
 
+.lorem_ipsum_grey{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    color: #595959;
+}
+
+.lorem_ipsum_antracite{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    color: #9F9F9F;
+}
 .lorem_ipsum_light_grey{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    color: #E3E3E3;
+}
+
+.lorem_ipsum_white{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(179, 177, 177);
+    color: #ECECEC;
 }
