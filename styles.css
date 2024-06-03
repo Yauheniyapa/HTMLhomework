@@ -1,3 +1,13 @@
+.background_page_main {
+    width: 90%;
+    height: 100%;
+    background-image: url(https://nypost.com/wp-content/uploads/sites/2/2020/02/sea-foam.jpg?quality=75&strip=all);
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 1;
+}
+
 .math_body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -36,10 +46,9 @@
     font-weight: bold;
 }
 
-.background-page-math {
+.background_page_math {
     width: 90%;
     height: 100%;
-    /* background-color: blue; */
     background-image: url(https://www.theparisreview.org/blog/wp-content/uploads/2019/07/istock-512102071.jpg);
     background-size: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -47,7 +56,10 @@
     z-index: 1;
 }
 
-.overlay-page-math {
+.overlay_page_main,
+.overlay_page_math,
+.overlay_page-vehilce,
+.overlay_page_lorem_ipsum {
     width: 60%;
     margin: 20px auto;
     padding: 20px;
@@ -55,4 +67,76 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     position: relative;
     z-index: 2
+}
+
+.vehicle_link{
+    font-size: smaller;
+    vertical-align: super;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.vehicle_link,
+.vehicle_link2:hover{
+    color: blue
+}
+
+.vehicle_link,
+.vehicle_link2:active{
+    color: rgb(13, 13, 234);
+}
+
+.background_page_lorem_ipsum{
+    width: 90%;
+    height: 100%;
+    /* background-color: blue; */
+    background-image: url(https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/cicero_gradient.png?strip=all&lossy=1&w=1552&ssl=1);
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 1;
+}
+
+/* .overlay-page-vehilce{
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(245,245,245);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 2
+} */
+
+.lorem_ipsum_capitol{
+    text-align: center;
+    font-weight: bold;
+}
+
+.epigraph1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    font-size: smaller;
+    font-style: italic;
+}
+
+.epigraph2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    font-size: x-small;
+}
+
+.lorem_ipsum_black{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.lorem_ipsum_grey{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+.lorem_ipsum_light_grey{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(179, 177, 177);
 }
