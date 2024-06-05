@@ -1,11 +1,18 @@
-.background_page_main {
+.background_page_main,
+.background_page_vehilce,
+.background_page_lorem_ipsum,
+.background_page_math,
+.background_page_seasons {
     width: 90%;
     height: 100%;
-    background-image: url(https://nypost.com/wp-content/uploads/sites/2/2020/02/sea-foam.jpg?quality=75&strip=all);
     background-size: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     position: relative;
     z-index: 1;
+}
+
+.background_page_main{
+    background-image: url(https://nypost.com/wp-content/uploads/sites/2/2020/02/sea-foam.jpg?quality=75&strip=all);
 }
 
 .math_body {
@@ -25,7 +32,7 @@
     padding: 1em 0;
 }
 
-.math_nav {
+.navigation_list {
     list-style-type: none;
     padding: 0;
 }
@@ -47,19 +54,14 @@
 }
 
 .background_page_math {
-    width: 90%;
-    height: 100%;
     background-image: url(https://www.theparisreview.org/blog/wp-content/uploads/2019/07/istock-512102071.jpg);
-    background-size: cover;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    position: relative;
-    z-index: 1;
 }
 
 .overlay_page_main,
 .overlay_page_math,
 .overlay_page_vehilce,
-.overlay_page_lorem_ipsum {
+.overlay_page_lorem_ipsum,
+.overlay_page_seasons {
     width: 60%;
     margin: 20px auto;
     padding: 20px;
@@ -69,13 +71,7 @@
     z-index: 2
 }
 .background_page_vehilce{
-    width: 90%;
-    height: 100%;
     background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/211029172345-17-classic-car-ev-conversions.jpg?q=w_2151,h_1211,x_0,y_0,c_fill);
-    background-size: cover;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    position: relative;
-    z-index: 1;
 }
 
 .vehicle_link{
@@ -97,13 +93,7 @@
 }
 
 .background_page_lorem_ipsum{
-    width: 90%;
-    height: 100%;
     background-image: url(https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/cicero_gradient.png?strip=all&lossy=1&w=1552&ssl=1);
-    background-size: cover;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    position: relative;
-    z-index: 1;
 }
 
 .lorem_ipsum_capitol{
@@ -163,4 +153,29 @@
 .lorem_ipsum_white{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ECECEC;
+}
+
+.background_page_seasons{
+    background-image: url(https://s.calendarr.com/upload/articles/se/as/seasons-of-the-year-in-the-united-states_f_usa_l.jpg);
+}
+
+.seasons_list{
+    list-style: none;
+}
+
+.seasons_list,
+.seasons_list_iteM {
+    margin: 5px, 0;
+}
+
+.seasons_title {
+    font-weight: bold;
+    list-style-type: square;
+}
+
+.ikon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
 }
