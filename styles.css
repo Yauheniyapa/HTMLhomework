@@ -11,7 +11,7 @@
     z-index: 1;
 }
 
-.background_page_main{
+.background_page_main {
     background-image: url(https://nypost.com/wp-content/uploads/sites/2/2020/02/sea-foam.jpg?quality=75&strip=all);
 }
 
@@ -37,17 +37,17 @@
     padding: 0;
 }
 
-.conteiner_math{
+.conteiner_math {
     text-align: center;
 }
 
-.span_math{
+.span_math {
     background-color: #FFACAC;
     padding: 0 px;
     display: inline-block;
 }
 
-.letter_math{
+.letter_math {
     color: #87082C;
     font-style: italic;
     font-weight: bold;
@@ -61,7 +61,8 @@
 .overlay_page_math,
 .overlay_page_vehilce,
 .overlay_page_lorem_ipsum,
-.overlay_page_seasons {
+.overlay_page_seasons,
+.overlay_page_article_content {
     width: 60%;
     margin: 20px auto;
     padding: 20px;
@@ -70,11 +71,12 @@
     position: relative;
     z-index: 2
 }
-.background_page_vehilce{
+
+.background_page_vehilce {
     background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/211029172345-17-classic-car-ev-conversions.jpg?q=w_2151,h_1211,x_0,y_0,c_fill);
 }
 
-.vehicle_link{
+.vehicle_link {
     font-size: smaller;
     vertical-align: super;
     text-decoration: none;
@@ -83,20 +85,20 @@
 }
 
 .vehicle_link,
-.vehicle_link2:hover{
+.vehicle_link2:hover {
     color: blue
 }
 
 .vehicle_link,
-.vehicle_link2:active{
+.vehicle_link2:active {
     color: rgb(13, 13, 234);
 }
 
-.background_page_lorem_ipsum{
+.background_page_lorem_ipsum {
     background-image: url(https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/cicero_gradient.png?strip=all&lossy=1&w=1552&ssl=1);
 }
 
-.lorem_ipsum_capitol{
+.lorem_ipsum_capitol {
     text-align: center;
     font-weight: bold;
 }
@@ -108,58 +110,51 @@
 .lorem_ipsum_grey,
 .lorem_ipsum_antracite,
 .lorem_ipsum_light_grey,
-.lorem_ipsum_white{
+.lorem_ipsum_white {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
-.epigraph1{
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+.epigraph1 {
     text-align: right;
     font-size: smaller;
     font-style: italic;
 }
 
-.epigraph2{
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+.epigraph2 {
     text-align: right;
     font-size: x-small;
 }
 
-.lorem_ipsum_black{
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+.lorem_ipsum_black {
     color: black;
 }
 
-.lorem_ipsum_dark_grey{
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+.lorem_ipsum_dark_grey {
     color: rgb(33, 33, 33);
 }
 
-.lorem_ipsum_grey{
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+.lorem_ipsum_grey {
     color: #595959;
 }
 
-.lorem_ipsum_antracite{
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+.lorem_ipsum_antracite {
     color: #9F9F9F;
 }
-.lorem_ipsum_light_grey{
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+.lorem_ipsum_light_grey {
     color: #E3E3E3;
 }
 
-.lorem_ipsum_white{
+.lorem_ipsum_white {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ECECEC;
 }
 
-.background_page_seasons{
+.background_page_seasons {
     background-image: url(https://s.calendarr.com/upload/articles/se/as/seasons-of-the-year-in-the-united-states_f_usa_l.jpg);
 }
 
-.seasons_list{
+.seasons_list {
     list-style: none;
 }
 
@@ -178,4 +173,38 @@
     height: 16px;
     vertical-align: middle;
     margin-right: 5px;
+}
+
+.background_page_article_content {
+    background-image: url(https://www.freecodecamp.org/news/content/images/size/w2000/2022/04/pexels-pixabay-270404.jpg);
+}
+
+.body_content {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_content {
+    font-size: 25px;
+}
+
+.main_content {
+    color:  #483EA6;
+}
+
+.index_content {
+    color: black;
+    font-weight: bold;
+}
+
+.list_content {
+    list-style: none;
+    padding-left: 0;
+}
+
+.section_content {
+    margin-left:  20px;
+}
+
+.sub_section_content {
+    margin-left: 40px;
 }
