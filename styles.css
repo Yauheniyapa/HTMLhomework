@@ -2,13 +2,23 @@
 .background_page_vehilce,
 .background_page_lorem_ipsum,
 .background_page_math,
-.background_page_seasons {
+.background_page_seasons,
+.background_page_article_content,
+.background_page_definition,
+.background_page_tariffs,
+.background_page_menu,
+.background_page_info_about_writer,
+.background_page_login_form,
+.background_page_message_form,
+.background_page_flights_list,
+.navigation_list {
     width: 90%;
     height: 100%;
     background-size: cover;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgb(36, 35, 35);
     position: relative;
     z-index: 1;
+    /* Align the background */
 }
 
 .background_page_main {
@@ -58,11 +68,18 @@
 }
 
 .overlay_page_main,
-.overlay_page_math,
 .overlay_page_vehilce,
 .overlay_page_lorem_ipsum,
+.overlay_page_math,
 .overlay_page_seasons,
-.overlay_page_article_content {
+.overlay_page_article_content,
+.overlay_page_definition,
+.overlay_page_tariffs,
+.overlay_page_menu,
+.overlay_page_info_about_writer,
+.overlay_page_login_form,
+.overlay_page_message_form,
+.overlay_page_flights_list {
     width: 60%;
     margin: 20px auto;
     padding: 20px;
@@ -70,6 +87,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     position: relative;
     z-index: 2
+    /* Align the background */
 }
 
 .background_page_vehilce {
@@ -151,7 +169,7 @@
 }
 
 .background_page_seasons {
-    background-image: url(https://s.calendarr.com/upload/articles/se/as/seasons-of-the-year-in-the-united-states_f_usa_l.jpg);
+    background-image: url(https://as1.ftcdn.net/v2/jpg/05/01/64/32/1000_F_501643271_i1XyTHZN8VTcqJHqdbkycmDXXC1DANot.jpg);
 }
 
 .seasons_list {
@@ -207,4 +225,21 @@
 
 .sub_section_content {
     margin-left: 40px;
+}
+
+.definition {
+    background-color: #236167;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.definition_capitol {
+    font-size: 1em;
+    background-color: #0E494E;
+    color: white;
+}
+
+.link_definition {
+    color: black;
 }
